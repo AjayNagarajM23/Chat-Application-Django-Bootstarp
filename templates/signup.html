@@ -29,35 +29,35 @@
             <h1 class="h3 mb-3 fw-normal" style="font-weight: bolder ; font-size: 60px ; font-family: fantasy"><b>SIGN
                 UP</b></h1>
 
-            <div style="display: flex; max-width: 280px;flex-direction: column;gap:16px; font-weight: bolder; font-size: large">
+            <div class = "form-group" style="display: flex; max-width: 280px;flex-direction: column;gap:16px; font-weight: bolder; font-size: large">
                 <div class="form-floating">
                     <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com"
-                           name="username">
+                           name="username" required="true">
                     <label for="floatingInput">User Name</label>
                 </div>
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInput" 
-                           name="fname">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="val"
+                           name="fname" required="true">
                     <label for="floatingInput">First Name</label>
                 </div>
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInput" 
-                           name="lname">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="val"
+                           name="lname" required="true">
                     <label for="floatingInput">Last Name</label>
                 </div>
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInput", type='email' 
-                           name="mail">
+                    <input type="text" class="form-control" id="floatingInput", type='email' placeholder="val"
+                           name="mail" required="true">
                     <label for="floatingInput">E-mail</label>
                 </div>
                 <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" 
-                           name="password">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="val"
+                           name="password" required="true">
                     <label for="floatingPassword">Enter Password</label>
                 </div>
                 <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" 
-                           name="cpassword">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="val"
+                           name="cpassword" required="true">
                     <label for="floatingPassword">Confirm Password</label>
                 </div>
                 <label>Already have a account <a href='/signin'>signin</a></label>
